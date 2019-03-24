@@ -1,0 +1,25 @@
+Algoritmo ejercicios03
+	Leer H
+	Leer M
+	Leer S
+	//Calculo de entrada
+	Si S<59 Entonces
+		segundoFinal<-S+1
+	SiNo
+		segundoFinal<-00
+	Fin Si
+	Si M<59 Entonces
+		minutoFinal<-M+1
+	SiNo
+		minutoFinal<-00
+	Fin Si
+	Si H<23 Entonces
+		horaFinal<-H+1
+	SiNo
+		horaFinal<-00
+	Fin Si
+	//Mostrar resultado
+	escribir(horaFinal)
+	escribir(minutoFinal)
+	escribir(minutoFinal)
+FinAlgoritmo
