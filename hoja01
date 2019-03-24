@@ -1,1 +1,16 @@
 
+Algoritmo Ejercicio13
+	Leer V
+	//CaLCULO DE ENTRADA
+	Si V<=4 Entonces
+		Paga<-50
+	FinSi
+	si 4<V y V<=8 Entonces
+		Paga<-85
+	FinSi
+	Si 8<V entonces
+		paga<- 85+((V%8)*4.5)
+	FinSi
+	//Mostrar resultado
+	Escribir (Paga)
+FinAlgoritmo
